@@ -189,7 +189,11 @@ void sendSmtpEmail(const char** from ,const char** recipient ,const char** subje
   // In my case  "250 Great success"
 
   Serial.println("Successful... Check Your Mail!!!!!!!");
-  
+  SMTPClient.println(F("QUIT"));
+  if (!Response()) {
+     Serial.println("Failed");
+  }
+  // Received 221 code in response for successful
 }
 
 
