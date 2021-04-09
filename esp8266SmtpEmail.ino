@@ -14,7 +14,7 @@ const char* senderEncodedPassword = "base64 encoded password";
 const char* Recipient = "mail@mail.com";
 
 // From Name and Email.Sender Name will be shown at top of the message at receiver end.
-const char* From = "POSTMASTER <postmaster@sandboxa3018ebf82f2439291f4e8c882ea39ee.mailgun.org>";
+const char* From = "NAME <mail@mail.com>";
 
 // Subject
 const char* Subject = "ESP8266 EMAIL TESTING";
